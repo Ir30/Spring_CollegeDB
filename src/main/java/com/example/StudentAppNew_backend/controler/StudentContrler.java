@@ -16,5 +16,10 @@ public class StudentContrler {
         return "contact page";
     }
 
+    @GetMapping("/gallery")
+    public String gallery(){
+        return "this is the gallery";
+    }
+
 
 }
